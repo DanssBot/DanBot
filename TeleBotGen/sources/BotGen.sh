@@ -9,7 +9,7 @@ echo "$IP" > /usr/bin/vendor_code
 }
 
 function_verify () {
-  check_ip
+#check_ip
   permited=$(curl -sSL "https://raw.githubusercontent.com/ADM-PERU/MGRBOT/main/TeleBotGen/Control/Control-Bot")
   [[ $(echo $permited|grep "${IP}") = "" ]] && {
   clear
