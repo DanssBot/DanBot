@@ -5,7 +5,7 @@ bot_retorno="=========COMANDOS=========\n"
 	 if [[ $(echo $permited|grep "${chatuser}") = "" ]]; then
 		 if [[ $(cat ${CID}|grep "${chatuser}") = "" ]]; then
 		         bot_retorno="$LINE\n"
-			 bot_retorno+=" ️ ADM-PERU BOT \n  🚫 No tiene acceso al generador 🚫"
+			 bot_retorno+=" ️ ADM-ADMIN BOT \n  🚫 No tiene acceso al generador 🚫"
 			 bot_retorno+="$LINE\n"
 			 bot_retorno+="/ID | (muestra sus ID)\n"
 			 bot_retorno+="/menu | (muestra este menu)\n"
