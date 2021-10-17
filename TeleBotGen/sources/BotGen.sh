@@ -122,7 +122,7 @@ upfile_fun () {
 invalido_fun () {
 	[[ ! -z ${callback_query_message_chat_id[$id]} ]] && var=${callback_query_message_chat_id[$id]} || var=${message_chat_id[$id]}
 local bot_retorno="$LINE\n"
-         bot_retorno+="Comando invalido!, Digita /Ayuda para ver los Cmd Validos\n"
+         bot_retorno+="Comando invalido!, Digita /Ayuda para ver los CMD Validos\n"
          bot_retorno+="$LINE\n"
 	     ShellBot.sendMessage --chat_id $var \
 							--text "<i>$(echo -e $bot_retorno)</i>" \
