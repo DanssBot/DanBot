@@ -19,7 +19,7 @@ bot_retorno="=========COMANDOS=========\n"
 			 bot_retorno+="/ID | (muestra sus ID)\n"
 			 bot_retorno+="/instal | (link de instalacion)\n"
 			 bot_retorno+="/menu | (muestra este menu)\n"
-			 bot_retorno+="/ayuda | (ayuda de los comandos)\n"
+			 bot_retorno+="/ayuda | (Ayuda de los comandos)\n"
 			 bot_retorno+="/keygen  | Presiona él botón para generar la key |\n"
 			 bot_retorno+="$LINE\n"
 			 menu_print
