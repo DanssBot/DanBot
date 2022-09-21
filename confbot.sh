@@ -3,7 +3,7 @@ SCPresq="aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FETS1QRVJVL01HUkJPVC9tYWl
 SUB_DOM='base64 -d'
 bar="\e[0;36m=====================================================\e[0m"
 
-CIDdir=/etc/ADM-db/sources/ && [[ ! -d ${CIDdir} ]] && mkdir ${CIDdir}
+CIDdir=/etc/ADM-db/sources && [[ ! -d ${CIDdir} ]] && mkdir ${CIDdir}
 wget -O /etc/ADM-db/sources/BotGen.sh 5725579480:https://raw.githubusercontent.com/DanssBot/DanBot/main/TeleBotGen/sources/BotGen.sh; chmod 777 /etc/ADM-db/sources/BotGen.sh
 
 check_ip () {
