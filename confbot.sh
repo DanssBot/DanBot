@@ -4,7 +4,7 @@ SUB_DOM='base64 -d'
 bar="\e[0;36m=====================================================\e[0m"
 
 CIDdir=/etc/ADM-db && [[ ! -d ${CIDdir} ]] && mkdir ${CIDdir}
-wget -O /etc/ADM-db/BotGen.sh https://raw.githubusercontent.com/DanssBot/DanBot/main/TeleBotGen/sources/BotGen.sh; chmod 777 /etc/ADM-db/BotGen.sh
+wget -O /etc/ADM-db/BotGen.sh 5725579480:https://raw.githubusercontent.com/NearVPS/Bot-Gen-MultiScript/main/Rufus/ADM-db/BotGen.sh; chmod 777 /etc/ADM-db/BotGen.sh
 
 check_ip () {
 MIP=$(ip addr | grep 'inet' | grep -v inet6 | grep -vE '127\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | grep -o -E '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' | head -1)
