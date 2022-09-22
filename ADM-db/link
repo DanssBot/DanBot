@@ -1,0 +1,10 @@
+#!/bin/bash
+
+link_src () {
+  bot_retorno="$LINE\n"
+  bot_retorno+="INSTALADOR OFICIAL ADM-ADMIN VPS\n"
+  bot_retorno+="$LINE\n"
+  bot_retorno+="sudo apt-get update -y && apt-get upgrade -y; wget https://raw.githubusercontent.com/DanssBot/Adm/main/instalscript.sh; chmod 777 instalscript.sh && ./instalscript.sh\n"
+  bot_retorno+="$LINE\n"
+msj_fun
+}
